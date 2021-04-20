@@ -8,8 +8,15 @@ This submission contains a model to show the implementation of MPC on a vehicle 
 
 The users can refer this model to perform path tracking applications for a given waypoints. The results can be visualized in a 2D plot that compares the obtained and the reference trajectory.
 
+## Folders
+1_MPC_Figure_Eight: Contains model to implement a mpc to drive the vehicle through a figure eight course with a constant velocity. 
+
+2_MPC_USHighway: Contains a model to implements a mpc to drive the vehicle through the US Highway scene.
 
 ## Model
+
+### mpcEightCourse.slx
+The model implements a model predictive control to drive the vehicle through a figure eight course. 
 
 ### mpcHighway.slx
 The model implements a model predictive control to drive the vehicle through the US Highway scene.
