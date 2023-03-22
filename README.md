@@ -72,7 +72,7 @@ Please note that the model has been tuned for a given set of waypoints and a vel
 
 ![alt text](<Models/ImagesforGit/mpcStopTime.PNG>)
 
-4. **Tune the model:** Please note that MPC uses a model of the system to make predictions about the system’s future behavior. It solves an online optimization algorithm to find the optimal control action that drives the predicted output to the reference. Hence, it is important to tune the parameters in the "Path Following Control System" block to get the desired output. To learn more about MPC, please refer to this MATLAB Teck Talk: [Understanding Model Predictive Control](https://www.mathworks.com/videos/series/understanding-model-predictive-control) 
+4. **Tune the model:** Please note that MPC uses a model of the system to make predictions about the system’s future behavior. It solves an online optimization algorithm to find the optimal control action that drives the predicted output to the reference. Hence, it is important to tune the parameters in the "Path Following Control System" block to get the desired output. To learn more about MPC, please refer to this MATLAB Teck Talk: [Understanding Model Predictive Control](https://www.mathworks.com/videos/series/understanding-model-predictive-control.html) 
 
 ## Tips for selecting the Model Predictive Control design parameters 
 
